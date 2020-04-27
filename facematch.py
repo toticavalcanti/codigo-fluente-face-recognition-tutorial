@@ -11,7 +11,7 @@ unknown_face_encoding = face_recognition.face_encodings(unknown_image)[0]
 
 # Compare faces
 results = face_recognition.compare_faces(
-    [bill_face_encoding], unknown_face_encoding)
+    [fernanda_face_encoding], unknown_face_encoding)
 
 if results[0]:
     print('Essa é a Fernanda Montenegro')
