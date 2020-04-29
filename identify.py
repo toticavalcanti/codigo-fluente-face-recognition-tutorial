@@ -61,4 +61,4 @@ del draw
 pil_image.show()
 
 # Save image
-pil_image.save('./saved_images/identify.jpg')
+pil_image.save('./saved_images/identified.jpg')
